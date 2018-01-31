@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    width: 18%;
+}
+
+img {
+    width: 100%;
+}
+
+img:hover {
+    border: 2px solid gold;
+}
+
+p {
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    ul {
+        flex-direction: column;
+    }
+    
+    li {
+        width: 100%;
+    }
+}
+
+/**
+.winner {
+    border: 10px solid gold;
+}
+**/
