@@ -1,0 +1,37 @@
+body {
+    background-color: grey; 
+    font-family: sans-serif;
+}
+
+img { width: 100%;
+}
+
+ul { list-style: none;
+     display:flex;
+     justify-content:space-around;
+     margin: 0;
+     padding: 0;
+}
+
+li {
+    width:18%;
+}
+
+/** .gold { 
+    border: 5px solid gold; THIS IS A COMMENT IN CSS**/
+   
+}
+
+p {color: black;
+    font-size: large;
+    text-align: center
+}
+
+@media (max-width:650px) {
+    ul {
+        flex-direction:column;
+    }
+    li {
+        width:100%;
+    }
+}
