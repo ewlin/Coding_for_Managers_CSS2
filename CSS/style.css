@@ -1,0 +1,27 @@
+html {
+    background-color: grey;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: list-item;
+    width: 18%;
+}
+img {
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    ul {
+        flex-direction: column;
+    }
+    
+    li {
+        width: 100%;
+    }
+}
