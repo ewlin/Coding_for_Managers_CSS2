@@ -1,0 +1,51 @@
+/**
+This is a CSS Doc, comments here!
+**/
+
+body
+{
+    background-color: blue;
+}
+
+img
+{
+    width: 100%;
+}
+
+li
+{
+    list-style-type: none;
+    width: 18%;
+    
+}
+
+ul
+{
+    display: flex;
+    justify-content:space-between;
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{
+    flex-direction: column;
+}
+
+.gold
+{
+    border: 1px solid gold;
+}
+
+
+
+@media (max-width: 800px) {
+    ul {
+        flex-direction: column;
+    }
+    
+    li{
+        width: 100%;
+    }
+    
+}
